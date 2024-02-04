@@ -23,8 +23,6 @@
   font-size: 38px;
   font-weight: 700;
   line-height: 45px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #274c5b;
 }
 
@@ -39,8 +37,6 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 23px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #274c5b;
   margin-inline: 20px;
 }
@@ -53,32 +49,68 @@ body {
 }
 
 /* body - section1 */
+.section1 {
+  margin: 0 auto;
+  margin-top: 49.28px;
+  margin-bottom: 91px;
+}
 .section1-main-div {
-  background-color: aqua;
+  margin: 0 auto;
   width: 1400px;
   height: 579px;
-  margin: 0 auto;
 }
 .section1-left-box {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 41px;
+  width: 671px;
+  height: 258px;
+}
+.section1-left-box-h3 {
+  font-family: "Yellowtail";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px
+  text-align: left;
+  color: #7eb693;
+}
+.section1-left-box-h2 {
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 59px;
+  color: #274c5b;
+}
+.section1-left-box-p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #525c60;
 }
 .section1-img {
+  width: 678px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 30px;
 }
 
 /* body - section2 */
-/* .section2 {
-  padding: 91px 260x;
-  width: 1118px;
+.section2 {
+  margin: 0 auto;
+  width: 1400px;
   height: 335px;
-  display: flex;
+  padding:0 131px;
 }
+
 .section2-div {
   width: 257px;
   height: 335px;
   background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px; 
+  margin-right:10px ;
 }
 .section2-title {
   margin-top: 29px;
@@ -87,18 +119,15 @@ body {
   font-size: 25px;
   font-weight: 800;
   line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #274c5b;
 }
 .section2-p {
   margin-top: 20px;
   margin-left: 36px;
+  margin-right: 37px;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #525c60;
-} */
+}
